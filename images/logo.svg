@@ -1,0 +1,88 @@
+<svg width="1280" height="1280" viewBox="0 0 1280 1280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <g id="fire-part" stroke="red" stroke-width="0" fill="black">
+      <path d="
+        M -104,16
+        C -124,-10 -62,-70 -62,-98
+        C -48,-98 -32,-72 -32,-72
+        C -18,-92 2,-72 32,-136
+        C 96,-60 58,-32 92,12
+        C 92,12 92,12 76,8
+        C 58,-18 64,-80 34,-112
+        C 14,-74 -12,-78 -32,-52
+        C -32,-52 -52,-82 -56,-76
+        C -64,-60 -106,0 -96,14
+        C -96,14 -104,16 -104,16
+      " />
+      <path d="
+        M -82,10
+        C -62,-40 -54,-34 -54,-34
+        C -50,-28 -24,-10 -24,-14
+        C -14,-44 18,-62 24,-62
+        C 30,-62 10,-32 44,4
+        C 44,4 44,4 30,2
+        C 22,2 10,-46 14,-46
+        C 6,-46 -18,0 -22,0
+        C -42,-10 -54,-20 -54,-20
+        C -58,-16 -64,-12 -72,8
+        C -72,8 -72,8 -82,10
+      " />
+      <path d="
+        M -90,-6
+        C -56,-72 -54,-64 -54,-64
+        C -36,-40 -38,-50 -30,-38
+        C -0,-78 -0,-64 32,-94
+        C 62,-34 32,-44 56,-10
+        C 18,-44 58,-74 18,-74
+        C -4,-68 -28,-30 -30,-30
+        C -50,-74 -84,-16 -90,-6
+      " />
+    </g>
+
+    <g id="ukrainian_trident" stroke="black" stroke-width="8" fill="none">
+      <circle r="328" cx="0" cy="0" stroke-dashoffset="620" stroke-dasharray="2200" style="transform:rotate(-48deg)"></circle>
+      <circle r="328" cx="0" cy="0" stroke-dashoffset="2030" stroke-dasharray="2200" style="transform:rotate(-87deg)"></circle>
+      <circle r="328" cx="0" cy="0" stroke-dashoffset="2030" stroke-dasharray="2200" style="transform:rotate(-122deg)"></circle>
+
+      <circle r="353" cx="0" cy="0" stroke-dashoffset="560" stroke-dasharray="2300" style="transform:rotate(-51deg)"></circle>
+      <circle r="353" cx="0" cy="0" stroke-dashoffset="1882" stroke-dasharray="2300" style="transform:rotate(-124deg)"></circle>
+
+      <g id="left-part">
+        <path d="M 0,-353 C -70,-240 -30,-200 -32,-152" />
+        <path d="M -32,-152 C -32,-152 -28,-62 -30,-40" />
+        <path d="M -30,-42 C -30,-38 -136,98 -120,158" />
+        <path d="M -30,158 H -188" />
+        <path d="M -184,158 V -208" />
+        <path d="M -220,208 H -22" />
+        <path d="M -220,212 V -300" />
+        <path d="M -220,-296 C -120,-296 -80,-15 -80,-11" />
+        <path d="M -184,-206 C -80,20 -182,-12 -184,-6" />
+        <path d="M -184,40 C -180,55 -90,100 -112,88" />
+        <path d="M -77,-14 C -140,-26 -156,56 -92,52" />
+        <path d="M 0,328 C 0,330 -90,280 -118,210" />
+        <path d="M -18,266 C -25,260 -60,230 -68,210" />
+        <path d="M 0,-18 C -0,-10 -70,60 -80,158" />
+        <path d="M -64,94 C -66,110 -20,90 -18,269" />
+        <path d="M -44,50 C -44,50 -10,90 0,126" />
+      </g>
+
+      <use href="#left-part" transform="scale(-1,1)" />
+
+      <use x="0" y="-356" href="#fire-part" transform="rotate(14 0 0)" />
+      <use x="0" y="-356" href="#fire-part" transform="rotate(44 0 0)" />
+      <use x="0" y="-356" href="#fire-part" transform="rotate(74 0 0)" />
+      <use x="0" y="-356" href="#fire-part" transform="rotate(104 0 0)" />
+      <use x="0" y="-356" href="#fire-part" transform="rotate(134 0 0)" />
+      <use x="0" y="-356" href="#fire-part" transform="rotate(164 0 0)" />
+      <use x="0" y="-356" href="#fire-part" transform="rotate(194 0 0)" />
+      <use x="0" y="-356" href="#fire-part" transform="rotate(224 0 0)" />
+      <use x="0" y="-356" href="#fire-part" transform="rotate(254 0 0)" />
+      <use x="0" y="-356" href="#fire-part" transform="rotate(284 0 0)" />
+      <use x="0" y="-356" href="#fire-part" transform="rotate(314 0 0)" />
+      <use x="0" y="-356" href="#fire-part" transform="rotate(344 0 0)" />
+    </g>
+  </defs>
+
+  <use x="639" y="655" href="#ukrainian_trident" />
+
+</svg>
