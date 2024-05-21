@@ -17,7 +17,7 @@ body {
   line-height: 1.7;
   color: #ffffff;
   background: #ffffff;
-  height: 590px;
+  /* height: 590px; */
 }
 
 #page {
@@ -190,7 +190,7 @@ form label {
 .display-t .display-tc {
   display: table-cell !important;
   vertical-align: middle;
-  min-height: 590px;
+  min-height: 300px;
 }
 .display-t .display-tc h1, .display-t .display-tc h2 {
   margin: 0;
@@ -278,7 +278,7 @@ form label {
   border-top-right-radius: 0px !important;
   border-bottom-right-radius: 0px !important;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 590px) {
   #fh5co-header-subscribe #email {
     width: 90% !important;
     margin: 0 auto;
@@ -299,7 +299,7 @@ form label {
   border-top-left-radius: 0px !important;
   border-bottom-left-radius: 0px !important;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 590px) {
   #fh5co-header-subscribe button {
     width: 90%;
     margin: 0 auto;
