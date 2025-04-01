@@ -1,4 +1,8 @@
-<svg width="1280" height="1280" viewBox="0 0 1280 1280" xmlns="http://www.w3.org/2000/svg">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" width="320" height="132" viewBox="0 0 1280 1280" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Convert the image in PNG on MacOS: https://superuser.com/a/1036841 -->
+
   <defs>
     <g id="fire-part" stroke="red" stroke-width="0" fill="black">
       <path d="
@@ -83,6 +87,6 @@
     </g>
   </defs>
 
-  <use x="639" y="655" href="#ukrainian_trident" />
+  <use x="640" y="640" href="#ukrainian_trident" />
 
 </svg>
